@@ -8,6 +8,7 @@ This was one of the first completed projects when I started coding with JavaScri
 
 Available options:
 
+- utilizies local storage to store todos array
 - add/delete todos
 - toggle completed todos
 - mark all todos as completed
