@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo List - by Leo Khramtsov</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+  </head>
+  
+  <body>
+
+    <div class="container">
+        <header>
+            <h1>Daily Planner</h1>
+        </header>
+
+        <div class="inputDiv">
+        <input type="text" id="inputData" title="What's on the agenda?" autofocus>
+            <button id="btn-add">Add Items</button>       
+        </div>
+
+        <div class="control-panel">
+            <button class="btn-toggleAll">Toggle All</button>
+            <button class="btn-deleteCompleted">Delete All Completed</button>
+        </div>
+
+        <div class="new-items">
+            <h3>Active Tasks</h3>
+            <ul id="pending-items-list">
+            </ul>
+        </div>
+        <div class="completed-tems"><h3>Completed Tasks</h3>
+            <ul id="complete-items-list">
+            </ul>
+        </div>
+    </div>
+    <footer>by Leo Khramtsov</footer>
+    <script src="scripts/todo.js" defer></script>
+  </body>
+  
+</html>
